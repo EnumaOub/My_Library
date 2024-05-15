@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 150;
+    height: 175px;
+    object-fit: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    padding: 20px;
+}
+
+.h-links {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content: center;
+}
+
+.h-links a {
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    flex: 1;
+}
+
+.header, .top, .footer  {
+    background-color: purple;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+
+.fantasy, .scifi {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    overflow: scroll;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.title {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.book_val {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.book p {
+    text-align: center;
+}
+
+.book a {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.citation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: gray;
+    padding: 50px;
+}
