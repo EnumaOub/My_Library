@@ -7,6 +7,8 @@ img {
     width: 250;
     height: 275px;
     object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 5px 0px 10px gray;
 }
 
 body {
@@ -31,6 +33,11 @@ body {
     padding: 20px;
 }
 
+.header p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .h-links {
     display: flex;
     flex-direction: row;
@@ -40,6 +47,8 @@ body {
 
 .h-links a {
     text-decoration: none;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 .footer {
@@ -48,6 +57,13 @@ body {
     justify-content: center;
     align-content: center;
     padding: 20px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .main {
@@ -55,6 +71,7 @@ body {
     flex-direction: column;
     margin-top: 20px;
     flex: 1;
+    gap: 25px;
 }
 
 .header, .top, .footer  {
@@ -67,6 +84,32 @@ body {
     justify-content: center;
     align-content: center;
     gap: 50px;
+    height: 300px;
+}
+
+.top img {
+    margin-bottom: 50px;
+}
+
+.top-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.top-sub {
+    font-size: 20px;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    background: #3882f6;
+    color: #F9FAF8;
+    padding: 8px;
+    font-size: 20px;
 }
 
 .fantasy, .scifi {
@@ -77,11 +120,17 @@ body {
     overflow: scroll;
     flex-wrap: wrap;
     padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    gap: 25px;
+
 }
 
 .title {
     flex-basis: 100%;
     text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
 }
 
 .book_val {
@@ -110,9 +159,25 @@ body {
 
 .citation {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
-    background-color: gray;
+    background-color: #e5e7eb;
     padding: 50px;
+    padding-left: 500px;
+    padding-right: 500px;
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
 }
+
+.citation p {
+    flex: 0 1 auto;
+}
+
+.citation .author {
+    font-weight: 800;
+    font-size: 20px;
+    text-align: right;
+  }
