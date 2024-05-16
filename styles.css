@@ -4,16 +4,23 @@
 }
 
 img {
-    width: 150;
-    height: 175px;
+    width: 250;
+    height: 275px;
     object-fit: cover;
 }
 
 body {
+    
+    background-color: blanchedalmond;
+    
+
+}
+
+.body-tot {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: blanchedalmond;
+    align-content: center;
 }
 
 .header {
